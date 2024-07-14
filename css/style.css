@@ -1,0 +1,280 @@
+/* bootstrap icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+/* bootstrap icons */
+:root {
+  --color-primary: rgb(245, 147, 10);
+  --color-secondary: rgb(43, 46, 74);
+  --color-third: rgb(244, 245, 248);
+  --color-forth: rgb(28, 30, 50);
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.large_header {
+  background-color: var(--color-forth);
+}
+
+.head_p {
+  color: var(--color-third);
+}
+
+.info_card {
+  background-color: var(--color-third);
+}
+
+.search_btn input {
+  background-color: var(--color-primary);
+  color: var(--color-third);
+}
+
+.search_btn input:hover {
+  transition: all 0.13s;
+  background-color: var(--color-secondary);
+}
+
+.info_card .top_cards {
+  color: var(--color-secondary);
+}
+
+.info_card:hover .top_cards {
+  color: var(--color-third);
+  transition: all 0.13s;
+}
+
+.info_card .card-text h3 {
+  color: var(--color-secondary);
+}
+
+.info_card .card-text p {
+  color: var(--color-secondary);
+}
+
+.info_card:hover {
+  background-color: var(--color-secondary);
+  transition: all 0.13s;
+}
+
+.info_card:hover .card-text h3 {
+  color: var(--color-third);
+  transition: all 0.13s;
+}
+
+.info_card:hover .card-text p {
+  color: var(--color-third);
+  transition: all 0.13s;
+}
+
+.info_card:hover h1 {
+  color: var(--color-forth);
+}
+
+.info_card h2 {
+  background-color: var(--color-primary);
+}
+
+.num {
+  font-size: 5rem;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.nav {
+  background-color: var(--color-secondary);
+  color: var(--color-third);
+}
+
+.nav a {
+  color: var(--color-primary);
+}
+
+.nav a:hover {
+  color: var(--color-third);
+  transition: all 0.13s;
+  cursor: default;
+}
+
+.nav button .icon_top:hover {
+  transition: all 0.13s;
+  color: var(--color-primary);
+}
+
+.nav-item a {
+  color: var(--color-primary);
+}
+
+.nav-item a:hover {
+  color: var(--color-third);
+}
+
+.icon_top {
+  color: var(--color-third);
+  outline: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section_number {
+  color: var(--color-primary);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.section_info {
+  color: var(--color-secondary);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.font {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.primary_span {
+  color: var(--color-primary);
+}
+
+.top_image_card h1 {
+  color: var(--color-primary);
+}
+
+.top_image_card h3,
+p {
+  color: var(--color-third);
+}
+
+.right_section button {
+  color: var(--color-third);
+  background-color: var(--color-primary);
+}
+
+.right_section button:hover {
+  background-color: var(--color-forth);
+}
+
+.left_section button {
+  color: var(--color-third);
+  background-color: var(--color-primary);
+}
+
+.left_section button:hover {
+  background-color: var(--color-forth);
+}
+
+.top_image_card button {
+  background-color: var(--color-primary);
+  color: var(--color-third);
+}
+
+.top_image_card button:hover {
+  background-color: var(--color-forth);
+  color: var(--color-third);
+}
+
+.picture_cards .row {
+  margin: 0 5rem 0 5rem;
+}
+
+@media only screen and (max-width: 540px) {
+  .picture_cards .row {
+    margin: 0 1.5rem 0 1.5rem;
+  }
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 75vh;
+  width: 100%;
+}
+
+.image_left {
+  width: 40%;
+  max-width: 40%;
+}
+
+.image_right {
+  width: 40%;
+  min-width: 40%;
+}
+
+.right_section {
+  background-color: var(--color-secondary);
+}
+
+.right_section_text {
+  color: var(--color-third);
+}
+
+.left_section {
+  background-color: var(--color-forth);
+}
+
+.left_section_text {
+  color: var(--color-third);
+}
+
+.cars_pic {
+  width: 50%;
+  height: auto;
+}
+
+@media only screen and (max-width: 540px) {
+  .cars_pic {
+    width: 85%;
+  }
+}
+
+.icon_down {
+  background-color: var(--color-primary);
+  color: var(--color-third);
+}
+
+.icon_down:hover {
+  background-color: var(--color-forth);
+  transition: all 0.13s;
+}
+
+.bottom_form {
+  background-color: var(--color-third);
+}
+
+.form_submit {
+  background-color: var(--color-primary);
+  color: var(--color-third);
+  width: 40%;
+}
+
+.bottom_form input[type="submit"] {
+  background-color: var(--color-primary);
+  color: var(--color-third);
+  width: 40%;
+}
+
+.contact_section {
+  background-color: var(--color-secondary);
+}
+
+.contact_section_icon {
+  color: var(--color-primary);
+}
+
+.contact_section_info {
+  color: var(--color-third);
+}
+
+.footer {
+  background-color: var(--color-forth);
+}
+
+.footer_p {
+  color: var(--color-third);
+}
